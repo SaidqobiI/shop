@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.box{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, #430F1CFF, #DE2B6CFF, #734A97FF, #361F6DFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btnn{
+   width: 500px;
+   height: 750px;
+   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   backdrop-filter: blur(30px);
+   -webkit-backdrop-filter: blur(30px);
+   border-radius: 20px;
+   box-shadow: 0 16px 32px rgba(0,0,0, .3);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 100px;
+    color: #FFF;
+}
+
+.btn1{
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 50px;
+    color: #fff;
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   backdrop-filter: blur(80px);
+   -webkit-backdrop-filter: blur(80px);
+   box-shadow: 0 16px 40px rgba(0,0,0, .3);
+   transition: 0.5s;
+}
+
+
+.btn2{
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 50px;
+    color: #fff;
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   backdrop-filter: blur(80px);
+   -webkit-backdrop-filter: blur(80px);
+   box-shadow: 0 16px 40px rgba(0,0,0, .3);
+   transition: 0.5s;
+}
+
+
+.buy{
+    width: 210px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+    margin: 5px;
+    border: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   backdrop-filter: blur(80px);
+   -webkit-backdrop-filter: blur(80px);
+   box-shadow: 0 16px 32px rgba(0,0,0, .3);
+   border: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+    margin-top: 15px;
+}
+
+i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.btn1:hover{
+    transform: translateY(-10px);
+}
+
+.btn2:hover{
+    transform: translateY(-10px);
+}
+
+.buy:hover{
+    transform: translateY(-10px);
+}
